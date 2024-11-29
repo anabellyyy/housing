@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+
+<body>    
+ 
+    <form action="/formulario.php" method="post">
+
+        
+        <p>   
+               FORMULARIO DE INFORMACIÓN
+        </p>
+        <legend>Sus datos:</legend>
+        <label for="Nombre y apellidos"></label>
+        Nombre y apellidos:
+        <input type="text" maxlength="50" nombre y apellidos" value="" placeholder="rellene sus datos"><br>
+        Contraseña:
+        <input type="text" name="contraseña" value=""maxlength="8"></br>
+        Usuario:
+        <input id="usuario" disabled type="text" value="anónimo"/><br>
+        Nivel:
+        Profesional:<input type="radio" name="Nivel" value="profesional" checked> 
+        Interesado:<input type="radio" name="Nivel" value="interesado" checked>
+        </br>
+
+        <br>Nacionalidad:<select name="nacionalidad">
+            <option value="esp" selected>Española</option>
+            <option value="ue">Unión Europea</option>
+            <option value="noue">Fuera de la UE</option>
+            </select>
+            </form>
+
+        <input type="checkbox" name="Deseo recibir informacion" checked> deseo recibir informacion:
+
+        </input>
+
+        <br>
+        <p>
+
+        por favor inserte sus comentarios:
+
+        <textarea name="comentarios" rows="5" cols="30">
+
+        comentarios...</textarea>
+        </p>
+        <br>e-mail:<input type="email" name="email"maxlength="80"<br>
+
+    
+
+        </fieldset>
+        <input type="submit" value="Enviar datos">
+            </h1>
+        </body>
+
+        </form>
+</body>
+</html>
